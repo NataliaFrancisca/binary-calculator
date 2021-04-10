@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yusei+Magic&display=swap');
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing:  border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator{
+	background: rgba(125,356,145,0.5);
+	width: 350px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 8px;
+	border: solid rgba(0,0,0,0.5) 0.1rem;
+}
+
+.result{
+	background: white;
+	border-radius: 8px;
+	border: solid black 0.1rem;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 250px;
+	height: 90px;
+}
+
+.result h1{
+	width: 80%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.btns{
+	width: 300px;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+button{
+	width: 60px;
+	height: 50px;
+	margin: 2px;
+	font-size: 1.3rem;
+	font-weight: 900;
+	border: solid rgba(0,0,0,0.5) 0.1rem;
+}
+
+.first-line button:nth-child(-n+2){
+	background: rgb(125,356,145);
+}
+
+.first-line button{
+	background: rgb(125,356,200);
+}
+
+.second-line button{
+	background: rgb(125,356,100);
+}
