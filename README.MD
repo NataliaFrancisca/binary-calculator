@@ -8,6 +8,8 @@
     https://github.com/maniero/SOpt/blob/master/JavaScript/String/Binary.js
     https://www.w3schools.com/jsref/jsref_tostring_number.asp
 
+#### 🔗 Test: https://binarycalculator-nf.netlify.app/
+
 ### ➡️ Things I need to fix in the code:
 
 - [X] Need to fix the code, it's not organized.
