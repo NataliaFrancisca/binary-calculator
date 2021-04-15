@@ -16,5 +16,5 @@
 - [X] Test more inputs
 - [ ] Fix the result button.
 - [X] Delete the teste.js file, it was used to test the code.
-- [ ] Make the page responsive.
+- [X] Make the page responsive.
 
